@@ -1,0 +1,3 @@
+#!/bin/bash
+export PATH="$CONDA_DIR/openrefine:$PATH"
+exec "$@" 
