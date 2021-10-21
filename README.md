@@ -13,11 +13,11 @@ To install directly from this repo:
 
 `pip install git+https://github.com/innovationOUtside/nb_serverproxy_openrefine.git`
 
-Open to Notebook homepage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/innovationOUtside/nb_serverproxy_openrefine/master)
+Open to Notebook homepage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/innovationOUtside/nb_serverproxy_openrefine/main)
 
-Open to OpenRefine: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/innovationOUtside/nb_serverproxy_openrefine/master?urlpath=openrefine)
+Open to OpenRefine: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/innovationOUtside/nb_serverproxy_openrefine/main?urlpath=nb_openrefine)
 
-Open to Jupyterlab: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/innovationOUtside/nb_serverproxy_openrefine/master?urlpath=lab)
+Open to Jupyterlab: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/innovationOUtside/nb_serverproxy_openrefine/main?urlpath=lab)
 
 OpenRefine can now be started and launched from the notebook homepage New menu:
 
