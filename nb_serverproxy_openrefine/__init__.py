@@ -13,6 +13,6 @@ def setup_openrefine():
         'environment': {},
         'launcher_entry': {
             'title': 'OpenRefine',
-            'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)), 'openrefine.svg')
+            'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)), 'icons', 'openrefine.svg')
         }
     }
