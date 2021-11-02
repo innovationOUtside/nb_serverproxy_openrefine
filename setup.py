@@ -21,12 +21,15 @@ setup(
     #extras_require={'pyclient':['openrefine-client']},
     url="https://github.com/innovationOUtside/nb_serverproxy_openrefine",
     author="Tony Hirst",
-    description="Jupyer server proxy wrapper for Open Refine",
+    description="Jupyter server proxy wrapper for Open Refine",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     entry_points={
         'jupyter_serverproxy_servers': [
             'openrefine = nb_serverproxy_openrefine:setup_openrefine',
         ]
-    }
+    },
+    package_data={
+        'nb_serverproxy_openrefine': ['icons/*'],
+    },
 )
