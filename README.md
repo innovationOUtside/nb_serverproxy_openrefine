@@ -1,17 +1,21 @@
 # nb_serverproxy_openrefine
 Jupyter server proxy for OpenRefine
 
-[Based on the original https://github.com/psychemedia/jupyterserverproxy-openrefine which has some docs, although the reponame/install instructions will need updating for this repo. *I will pop the package on PyPi at some point.*]
+> Based on the original https://github.com/psychemedia/jupyterserverproxy-openrefine which has some docs, although the reponame/install instructions will need updating for this repo. *I will pop the package on PyPi at some point.*
 
 Jupyter-server-proxy config for running OpenRefine.
 
 Install as:
 
-`pip install nb-serverproxy-openrefine`
+```bash
+pip install nb-serverproxy-openrefine
+```
 
 To install directly from this repo:
 
-`pip install git+https://github.com/innovationOUtside/nb_serverproxy_openrefine.git`
+```bash
+pip install git+https://github.com/innovationOUtside/nb_serverproxy_openrefine.git
+```
 
 Open to Notebook homepage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/innovationOUtside/nb_serverproxy_openrefine/main)
 
@@ -35,9 +39,11 @@ Calling the path directly (eg starting MyBinder with the path `openrefine`, or a
 
 The directory path into which the OpenRefine project files are saved is `$HOME/openrefine` by default, although you can trump it via the `$REFINE_DIR` global variable:
 
-`openrefine_path =  os.getenv("REFINE_DIR") if "REFINE_DIR" in os.environ else str(Path.home() / 'openrefine')`
+```python
+openrefine_path =  os.getenv("REFINE_DIR") if "REFINE_DIR" in os.environ else str(Path.home() / 'openrefine')
+```
 
-*Early original work on getting OpenRefine running in MyBinder was done by @betatim ([betatim/openrefineder](https://github.com/betatim/openrefineder)) and @yuvipanda helped me get my head round various bits of [jupyterhub/jupyter-server-proxy/](https://github.com/jupyterhub/jupyter-server-proxy/) which is key to proxying web services via Jupyter. @manics PR for handling predefined, rather than allocated, port mappings also made life much easier...*
+> Early original work on getting OpenRefine running in MyBinder was done by @betatim ([betatim/openrefineder](https://github.com/betatim/openrefineder)) and @yuvipanda helped me get my head round various bits of [jupyterhub/jupyter-server-proxy/](https://github.com/jupyterhub/jupyter-server-proxy/) which is key to proxying web services via Jupyter. @manics PR for handling predefined, rather than allocated, port mappings also made life much easier...
 
 ## Python Client
 
