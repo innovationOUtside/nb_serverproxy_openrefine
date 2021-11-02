@@ -26,7 +26,7 @@ setup(
     long_description_content_type="text/markdown",
     entry_points={
         'jupyter_serverproxy_servers': [
-            'nb_openrefine = nb_serverproxy_openrefine:setup_openrefine',
+            'openrefine = nb_serverproxy_openrefine:setup_openrefine',
         ]
     }
 )
