@@ -19,7 +19,7 @@ pip install git+https://github.com/innovationOUtside/nb_serverproxy_openrefine.g
 
 Open to Notebook homepage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/innovationOUtside/nb_serverproxy_openrefine/main)
 
-Open to OpenRefine: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/innovationOUtside/nb_serverproxy_openrefine/main?urlpath=nb_openrefine)
+Open to OpenRefine: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/innovationOUtside/nb_serverproxy_openrefine/main?urlpath=openrefine)
 
 Open to Jupyterlab: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/innovationOUtside/nb_serverproxy_openrefine/main?urlpath=lab)
 
