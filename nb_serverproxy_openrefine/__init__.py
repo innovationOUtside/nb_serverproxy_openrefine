@@ -11,6 +11,7 @@ def setup_openrefine():
     return {
         'command': ['refine', '-p', '{port}','-d', openrefine_path],
         'environment': {},
+        'timeout': 120,
         'launcher_entry': {
             'title': 'OpenRefine',
             'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)), 'icons', 'openrefine.svg')
