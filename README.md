@@ -43,6 +43,8 @@ The directory path into which the OpenRefine project files are saved is `$HOME/o
 openrefine_path =  os.getenv("REFINE_DIR") if "REFINE_DIR" in os.environ else str(Path.home() / 'openrefine')
 ```
 
+The host openrefine will use is `127.0.0.1` by default. This can be overriden with the `$REFINE_DOMAIN` global variable
+
 > Early original work on getting OpenRefine running in MyBinder was done by @betatim ([betatim/openrefineder](https://github.com/betatim/openrefineder)) and @yuvipanda helped me get my head round various bits of [jupyterhub/jupyter-server-proxy/](https://github.com/jupyterhub/jupyter-server-proxy/) which is key to proxying web services via Jupyter. @manics PR for handling predefined, rather than allocated, port mappings also made life much easier...
 
 ## Python Client
