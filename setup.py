@@ -11,7 +11,7 @@ def get_long_description():
 setup(
     name="nb-serverproxy-openrefine",
     packages= ['nb_serverproxy_openrefine'],
-    version='0.0.8',
+    version='0.0.9',
     include_package_data=True,
     install_requires=[
         'jupyter-server-proxy'
