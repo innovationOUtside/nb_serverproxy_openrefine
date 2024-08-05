@@ -14,8 +14,7 @@ setup(
     version='0.0.8',
     include_package_data=True,
     install_requires=[
-        'jupyter-server-proxy',
-        'notebook'
+        'jupyter-server-proxy'
     ],
     #extras_require={'pyclient':['git+https://github.com/dbutlerdb/refine-client-py']},
     #extras_require={'pyclient':['openrefine-client']},
