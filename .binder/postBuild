@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-OPENREFINE_VERSION=3.4.1 #$(<.openrefine_version)  #2.8
+OPENREFINE_VERSION=3.8.2 #$(<.openrefine_version)  #2.8
 OPENREFINE_PATH=$CONDA_DIR/openrefine
 
 wget -q -O openrefine-${OPENREFINE_VERSION}.tar.gz https://github.com/OpenRefine/OpenRefine/releases/download/${OPENREFINE_VERSION}/openrefine-linux-${OPENREFINE_VERSION}.tar.gz
